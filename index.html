@@ -20,25 +20,31 @@
     <header></header>
     <main>
         <h1>Class 1 Lab</h1>
-        <p id="q1" style="background-color: #206a5d; color: cadetblue; font-size: 40px;">eee</p>
-        <p id="q2" style="background-color: #194350; color: #9dbeb9; font-size: 40px;">wwww</p>
-        <p id="q3" style="background-color: #810000; color: #1b1717; font-size: 40px;">vvvvv</p>
-        <p id="q4" style="background-color: #52734d; color: #ddffbc; font-size: 40px;">kkkkk</p>
+        <p id="q1" style="background-color: #206a5d; color: cadetblue; font-size: 40px;">Whats your name?</p>
+        <p id="q2" style="background-color: #194350; color: #9dbeb9; font-size: 40px;">What is your background?</p>
+        <p id="q3" style="background-color: #810000; color: #1b1717; font-size: 40px;">Have you traveled before? Where? told the story you got with you.</p>
+        <p id="q4" style="background-color: #52734d; color: #ddffbc; font-size: 40px;">What is your favorite fruit?</p>
     </main>
     <footer></footer>
 </body>
 <script>
     let userName = prompt('Whats your name?');
 
-    alert('Welcome ' + userName + 'Im saleh abu radwan');
+    alert('Welcome ' + userName + ' Im saleh abu radwan');
     console.log('usreName var = ', userName);
 
-    let aboutHim = prompt('What is your background ?');
+    let aboutHim = prompt('What is your background?');
 
     alert(aboutHim +  "\nAbout me Igraduated in 2018 form alzaytoonah university, CS major and I trainee at ASAC software development.");
     console.log('aboutMe = ' + aboutHim);
 
-    let 
+    let travel = prompt('Have you traveled before? Where? told the story you got with you.');
+    alert(travel + ' \nYes, I traveled to Dubai I got a funny situation there. We had been waiting for the bus for a long time, and when it came we realized that it was not the bus we wanted, haha.');
+    console.log('tarveld to ' + travel);
+
+    let fruit = prompt('What is your favorite fruit?');
+    alert(fruit + ' \nAs for me, I love strawberries');
+    console.log('frouit is ' + fruit);
     // function teamName(team){
     //     while(team !== "Barca" && team !== "Madrid" && team !== "AC milan"){
     //         team = prompt("re-Enter the teame name...", "Barca, Madrid, AC milan");
